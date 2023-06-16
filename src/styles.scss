@@ -3,5 +3,19 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .filledStar{
-    color:#F29344;
+    color:#e57920;
+    width: 70%;
+    height: 90%;
+    background-image:url("assets/pics/filled_Star.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    background-image:url("assets/pics/logo.png");
+    width: 70%;
+    height: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
