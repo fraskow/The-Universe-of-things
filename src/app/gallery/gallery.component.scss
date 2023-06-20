@@ -1,21 +1,19 @@
 .container {
-  background: url('/assets/fondo.jpg') center center/cover no-repeat;
+  background: url('/assets/fondo.jpg');
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
-
-
 }
 
 .image {
   width: 200px;
   height: 200px;
   margin: 10px;
-
-
 }
 
 img {
@@ -23,5 +21,4 @@ img {
   height: 70%;
   object-fit: cover;
   border-radius: 50%;
-
 }
