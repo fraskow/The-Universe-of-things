@@ -1,8 +1,17 @@
 <div class="container">
-  
     <div class="gallery">
         <div *ngFor="let image of images" class="image">
-        <img [src]="'assets/' + image" alt="Image">
+            <img [src]="'assets/' + image" alt="Image">
         </div>
     </div>
 </div>
+<h1>Superheroes</h1>
+<ul>
+  <li *ngFor="let superhero of superheroes">
+    <strong>ID:</strong> {{ superhero.id }} <br>
+    <strong>Name:</strong> {{ superhero.name }} <br>
+    <strong>Intelligence:</strong> {{ superhero.powerstats.intelligence }} <br>
+    <strong>Strength:</strong> {{ superhero.powerstats.strength }} <br>
+    <strong>Speed:</strong> {{ superhero.powerstats.speed }} <br><br>
+  </li>
+</ul>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SuperheroService } from '../superhero.service';
 
 @Component({
   selector: 'app-gallery',
@@ -20,4 +21,14 @@ export class GalleryComponent {
     'image11.jpg',
     'image12.jpg',
   ];
+
+  superheroes: any[] = [];
+
+  constructor(private superheroService: SuperheroService) { }
+
+  ngOnInit() {
+    this.superheroService.getSuperheroes().subscribe(data => {
+      this.superheroes = data;
+    });
+  }
 }
