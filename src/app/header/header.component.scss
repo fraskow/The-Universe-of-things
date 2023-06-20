@@ -11,11 +11,9 @@ $whiteBackground:rgb(255, 255, 255, 0.5);
     left: $positionStart;
 }
 .headerStar{
-    margin-left:5vw;
-}
-.headerStar{
     margin-right:25vw;
-    width:10vw
+    width:10vw;
+    cursor:pointer;
 }
 #galleryButton{
     display: inline-flex;
@@ -29,4 +27,5 @@ $whiteBackground:rgb(255, 255, 255, 0.5);
     background-color:$whiteBackground;
     border-radius:60px;
     box-shadow: 1px 1px 1px black;
+    cursor:pointer;
 }
