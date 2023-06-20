@@ -1,27 +1,17 @@
 .container {
-  background: url('/assets/fondo.jpg') center center/cover no-repeat;
-}
-
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-
+  background-image: url('/assets/fondo.jpg');
+  background-repeat: repeat;
 
 }
 
-.image {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-
-
+ul{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
-img {
-  width: 70%;
-  height: 70%;
-  object-fit: cover;
+img{
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
-
+  margin-top: 15px;
 }
