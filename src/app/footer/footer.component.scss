@@ -1,0 +1,52 @@
+$background-color: hsla(354, 79, 76, 1);
+$positionBottomStart: 0;
+$centerElement: center;
+$alingElementToEnd:  right;
+$whiteBackground:rgb(255, 255, 255, 0.5);
+
+
+#footerContainer{
+    display:flex;
+    background-color:$background-color ;
+    height: 10vh;
+    width:100vw;
+    position: fixed;
+    bottom: $positionBottomStart;
+    left: $positionBottomStart;
+}
+
+#footerButtonContainer{
+    width: 25%;
+    height:75%;
+    margin-top:2vh;
+    margin-left:3vw;
+    display:flex;
+    background-color:$whiteBackground;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+#Credits{
+    width: 50vw;
+    margin-top:2vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: $centerElement;
+}
+#dateHourContainer{
+    width: 15%;
+    height: 25%;
+    padding-top: 10px;
+    padding-right:  10px;
+    padding-bottom:  10px;
+    padding-left: 10px;
+    margin-top:3vh;
+    margin-right:2vh;
+    text-align: $centerElement;
+    align-items: center; 
+    background-color:$whiteBackground;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+
+
