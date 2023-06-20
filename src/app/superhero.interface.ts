@@ -6,5 +6,11 @@ export interface Superhero {
       strength: number;
       speed: number;
     };
+    image: {
+      xs: string;
+      sm: string;
+      md: string;
+      lg: string;
+    }
   }
   
