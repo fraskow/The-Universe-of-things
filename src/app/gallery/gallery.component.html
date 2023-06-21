@@ -3,7 +3,8 @@
   <div class="gallery">
     <ul>
       <li *ngFor="let superhero of superheroes">
-        <img [src]="superhero.images.sm" alt="{{ superhero.name }}"><br>
+        <img [src]="superhero.images.sm" alt="{{ superhero.name }}">
+        <img src="../../assets/pics/filled_Star.png" alt="fav" class="star-fav">
         <!-- <strong>ID:</strong> {{ superhero.id }} <br>
         <strong>Name:</strong> {{ superhero.name }} <br>
         <strong>Intelligence:</strong> {{ superhero.powerstats.intelligence }} <br>
@@ -12,3 +13,4 @@
       </li>
     </ul>
   </div>
+</div>
