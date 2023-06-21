@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Superheroes</h1>
+  <div class="gallery">
+    <ul>
+      <li *ngFor="let superhero of superheroes">
+        <img [src]="superhero.images.sm" alt="{{ superhero.name }}"><br>
+        <!-- <strong>ID:</strong> {{ superhero.id }} <br>
+        <strong>Name:</strong> {{ superhero.name }} <br>
+        <strong>Intelligence:</strong> {{ superhero.powerstats.intelligence }} <br>
+        <strong>Strength:</strong> {{ superhero.powerstats.strength }} <br>
+        <strong>Speed:</strong> {{ superhero.powerstats.speed }} <br><br> -->
+      </li>
+    </ul>
+  </div>

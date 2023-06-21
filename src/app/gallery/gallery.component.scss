@@ -1,0 +1,15 @@
+.container {
+  background-image: url('../../assets/fondo.jpg');
+  background-repeat: repeat;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
