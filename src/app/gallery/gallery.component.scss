@@ -1,7 +1,4 @@
-.container {
-  background-image: url('../../assets/fondo.jpg');
-  background-repeat: repeat;
-}
+
 
 ul {
   display: grid;
@@ -20,4 +17,8 @@ img{
   height: 50px;
   margin-left:-50px;
   margin-top: 205px;
+}
+.container {
+  background-image: url('../../assets/fondo.jpg');
+  background-repeat: repeat;
 }
