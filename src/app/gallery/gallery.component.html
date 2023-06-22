@@ -1,8 +1,8 @@
-<div class="container">
+<div class="container"  [ngClass]="{'less-heroes': !hasHeroes}">
   <h1>Superheroes</h1>
   <div class="gallery">
     <ul>
-      <li *ngFor="let superhero of superheroes">
+      <li *ngFor="let superhero of getFilteredSuperheroes()">
         <img [src]="superhero.images.sm" alt="{{ superhero.name }}"><br>
         <!-- <strong>ID:</strong> {{ superhero.id }} <br>
         <strong>Name:</strong> {{ superhero.name }} <br>

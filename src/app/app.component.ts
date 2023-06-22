@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'universe-of-things';
+  showFavourites: boolean = false;
+
+  toggleFavourites() {
+    this.showFavourites = !this.showFavourites;
+    console.log(this.showFavourites)
+  }
 }
