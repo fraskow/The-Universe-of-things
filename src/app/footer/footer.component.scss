@@ -1,7 +1,7 @@
 $background-color: hsla(354, 79, 76, 1);
 $positionBottomStart: 0;
 $centerElement: center;
-$alingElementToEnd:  right;
+// $alingElementToEnd:  right;
 $whiteBackground:rgb(255, 255, 255, 0.5);
 
 
@@ -9,7 +9,11 @@ $whiteBackground:rgb(255, 255, 255, 0.5);
     display:flex;
     background-color:$background-color ;
     height: 10vh;
+<<<<<<< HEAD
     width:100vw;
+=======
+    width: 100%;
+>>>>>>> gallery-Fran
     bottom: $positionBottomStart;
     left: $positionBottomStart;
     border: solid 1px #000000;
