@@ -9,7 +9,7 @@ import { FavouritesService } from '../favourites.service';
 export class HeaderComponent {
   showFavourites: boolean = false;
 
-  constructor(private favouritesService: FavouritesService) { }
+  constructor(private favouritesService: FavouritesService) {}
 
   ngOnInit() {
     this.favouritesService.showFavourites$.subscribe(showFavourites => {
