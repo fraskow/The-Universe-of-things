@@ -3,12 +3,12 @@ $positionStart: 0;
 $whiteBackground:rgb(255, 255, 255, 0.5);
 #headerContainer{
     display:flex;
-    background: $background-color;
-    height: 5.7vh;
+    background-color:$background-color ;
+    height: 10vh;
     width:100vw;
     position: fixed;
-    z-index: 100;
-    box-shadow: 0.5px 0.5px 0.5px 1px #000000;
+    top: $positionStart;
+    left: $positionStart;
 }
 .headerStar{
     margin-right:25vw;
@@ -16,20 +16,16 @@ $whiteBackground:rgb(255, 255, 255, 0.5);
     cursor:pointer;
 }
 #galleryButton{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-left:20vw;
-    margin-top: 3px;
-    width: 30%;
-    height: 4vh;
+    margin-top:2vh;
+    width: 25%;
+    height: 40%;
+    padding:20px;
     background-color:$whiteBackground;
-    border-radius:7px;
-    box-shadow: 1px 1px 1px #000000;
+    border-radius:60px;
+    box-shadow: 1px 1px 1px black;
     cursor:pointer;
-    transition: 0.85s;
-
-            &:hover {
-                transform: scale(1.1);
-            }
 }
