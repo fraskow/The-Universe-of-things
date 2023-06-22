@@ -7,8 +7,8 @@ $whiteBackground:rgb(255, 255, 255, 0.5);
     height: 10vh;
     width:100vw;
     position: fixed;
-    top: $positionStart;
-    left: $positionStart;
+    z-index: 100;
+    box-shadow: 0.5px 0.5px 0.5px 1px #000000;
 }
 .headerStar{
     margin-right:25vw;
