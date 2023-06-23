@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+#modal_container {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #a486cb;
+  width: 496px;
+  height: 671px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 480px;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#close {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 380px;
+  margin-top: -580px;
+  position: absolute;
+  color: white;
+}
+
+/* .circulo {
+                margin-top: -400px;
+                
+                width: 203px;
+                height: 171px;
+                border-radius: 50%;
+                position: absolute;
+                
+                }*/
+img {
+  margin-top: -400px;
+  width: 203px;
+  height: 171px;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#button-hero {
+  width: 248px;
+  height: 44px;
+  background-color: #fee6e8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: -80px;
+}
+
+.race {
+  width: 184px;
+  height: 208px;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 60%;
+  background-color: #fee6e8;
+  position: absolute;
+  margin-right: 190px;
+}
+.stats {
+  width: 184px;
+  height: 208px;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 60%;
+  background-color: #fee6e8;
+  position: absolute;
+  margin-left: 190px;
+}
