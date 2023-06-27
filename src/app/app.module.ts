@@ -10,6 +10,7 @@ import { SuperheroService } from './superhero.service';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { FavouritesBannerComponent } from './favourites-banner/favourites-banner.component';
+import { HeroeDayBannerComponent } from './heroe-day-banner/heroe-day-banner.component';
 
 
 
@@ -20,6 +21,7 @@ import { FavouritesBannerComponent } from './favourites-banner/favourites-banner
     HeaderComponent, 
     GalleryComponent,
     FavouritesBannerComponent,
+    GalleryComponent, HeroeDayBannerComponent,
 
   ],
   imports: [
