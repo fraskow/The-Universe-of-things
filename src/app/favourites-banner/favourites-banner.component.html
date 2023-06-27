@@ -1,0 +1,13 @@
+<ng-container *ngIf="showFavourites">
+    <section class="banner">
+        <div class="pics">
+            <img class="hero" [src]="heroList.length > 0 ? heroList[0].images.sm : ''">
+            <img class="hero" [src]="heroList.length > 1 ? heroList[1].images.sm : ''">
+            <img class="hero" [src]="heroList.length > 2 ? heroList[2].images.sm : ''">
+            <img class="hero" [src]="heroList.length > 3 ? heroList[3].images.sm : ''">
+
+        
+            <h3 class="race">{{ randomRace }}</h3>
+        </div>  
+    </section >
+</ng-container>

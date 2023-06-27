@@ -1,0 +1,33 @@
+.banner{
+    position: absolute;
+    top: 10%;
+    background-color: rgba(164, 134, 203, 0.8);
+    height: 15%;
+    width:100%;
+    box-shadow: 0.5px 0.5px 0.5px 1px #000000;
+    
+    .pics{
+        display:flex;
+        margin-left:15%;
+        overflow:visible;
+        .hero{
+            margin-left:10%;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+        .race{
+            margin-top:2%;
+            margin-left:14%;
+            height: 30px;
+            padding:5px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#FEE6E8;
+            border-radius:10px;
+            box-shadow: 1px 1px 1px black;
+        }
+    }
+   
+}
