@@ -9,18 +9,23 @@
 ul {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  margin-left: 090px ;
 }
 
 img{
   height: 180px;
   width: 180px;
   border-radius: 50%;
-}
+  }
 
 .star-fav{
   position: absolute;
   width: 50px;
   height: 50px;
-  margin-left:-50px;
-  margin-top: 130px;
+  margin-left: 120px;
+  margin-top: -55px;
+}
+
+.star-fav:hover {
+  transform: scale(1.2);
 }
