@@ -9,6 +9,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { SuperheroService } from './superhero.service';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { HeroeDayBannerComponent } from './heroe-day-banner/heroe-day-banner.component';
 
 
 
@@ -17,7 +18,7 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     FooterComponent,
     HeaderComponent, 
-    GalleryComponent,
+    GalleryComponent, HeroeDayBannerComponent,
 
   ],
   imports: [
