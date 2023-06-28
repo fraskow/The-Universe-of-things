@@ -9,6 +9,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { SuperheroService } from './superhero.service';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { DetailHeroComponent } from './detail-hero/detail-hero.component';
+import { PopupCourseComponent } from './detail-hero/popup-course/popup-course.component';
 
 
 
@@ -18,6 +20,8 @@ import { HeaderComponent } from './header/header.component';
     FooterComponent,
     HeaderComponent, 
     GalleryComponent,
+    DetailHeroComponent,
+    PopupCourseComponent
 
   ],
   imports: [

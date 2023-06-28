@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 #modal_container {
+  
   box-sizing: border-box;
   display: flex;
   background-color: #a486cb;
@@ -9,8 +10,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  margin-top: 5px;
-  margin-left: 480px;
+  margin-top: 250px;
+  margin-left: 80px;
   pointer-events: none;
   transition: opacity 0.3s ease;
 }
