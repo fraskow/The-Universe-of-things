@@ -1,9 +1,8 @@
 .banner{
-    position: absolute;
-    top: 10%;
-    background-color: rgba(164, 134, 203, 0.8);
-    height: 15%;
-    width:100%;
+    background: hsl(266, 40%, 66%);
+    opacity: 80%;
+    width: 100%;
+    height: 100px;
     box-shadow: 0.5px 0.5px 0.5px 1px #000000;
     
     .pics{
