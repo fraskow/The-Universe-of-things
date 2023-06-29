@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 * {
+    padding: 0;
+    box-sizing: border-box;
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -13,12 +15,17 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.75s;
+        }
 }
 
 .logo {
     background-image: url("assets/pics/logo.png");
     width: 70%;
-    height: 90%;
+    height: 60%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

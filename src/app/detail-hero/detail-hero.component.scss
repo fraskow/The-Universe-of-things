@@ -12,8 +12,8 @@
   position: absolute;
   margin-top: 250px;
   margin-left: 80px;
-  pointer-events: none;
   transition: opacity 0.3s ease;
+  z-index: 100;
 }
 
 #close {
@@ -25,6 +25,7 @@
   margin-top: -580px;
   position: absolute;
   color: white;
+  cursor: pointer;
 }
 
 /* .circulo {
@@ -52,6 +53,7 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-top: -80px;
+  cursor: pointer;
 }
 
 .race {

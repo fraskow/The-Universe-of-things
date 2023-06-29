@@ -9,25 +9,13 @@ import { FavouritesService } from '../favourites.service';
 })
 export class GalleryComponent {
   images: string[] = [
-    'image1.jpg',
-    'image2.jpg',
-    'image3.jpg',
-    'image4.jpg',
-    'image5.jpg',
-    'image6.jpg',
-    'image7.jpg',
-    'image8.jpg',
-    'image9.jpg',
-    'image10.jpg',
-    'image11.jpg',
-    'image12.jpg',
   ];
   superheroes: any[] = [];
   filteredSuperheroes: any[] = [];
   showFavourites: boolean = false;
   hasHeroes: boolean = false;
   constructor(private superheroService: SuperheroService, private favouritesService: FavouritesService) { }
-
+  
   ngOnInit() {
     this.superheroService.getSuperheroes().subscribe(data => {
       this.superheroes = data;
@@ -49,4 +37,7 @@ export class GalleryComponent {
       return this.filteredSuperheroes;
     }
   }
-}
+
+  }
+
+
